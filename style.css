@@ -1,0 +1,91 @@
+h1 {
+    background-color: #cc0000; 
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(dust-overlay-3.png);
+  }
+
+.container{
+    background-color: #cc0000; 
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-image: url(dust-overlay-3.png);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2{
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: white;
+}
+h3{
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: white;
+}
+body {
+    background-image: url(WFhtE9.gif);
+    background-repeat: no-repeat;
+    background-size: 5000px;
+}
+h4{
+    font-size: smaller;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: white;
+}
+#paymentCarousel {
+    margin-top: 30px;
+    background-color: #ec0000;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(201, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(dust-overlay-3.png);
+}
+
+
+.carousel-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.5s ease-in-out;
+    justify-content: center;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    height: 150px;
+    object-fit: cover;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #cc0000;
+    border-radius: 50%;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    color: white;
+}
+
+.carousel-item .card {
+    width: 200px;
+}
